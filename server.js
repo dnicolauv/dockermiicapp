@@ -216,5 +216,5 @@ app.post('/processData',function(req,res,next){
 	  	});		
 });
 
-http.createServer(app).listen(8124);
-console.log("Server Started successfully at Port 8124");
+http.createServer(app).listen(8080);
+console.log("Server Started successfully at Port 8080");
