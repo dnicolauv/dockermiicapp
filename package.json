@@ -1,0 +1,20 @@
+{
+  "name": "miicarpeta_webapp",
+  "version": "1.0.0",
+  "description": "Miicarpeta node server for image processing",
+  "author": "David Nicolau <ulin666@gmail.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+	"cors" : "latest",
+	"body-parser" : "latest",
+	"canvas": "1.3.12",
+	"fabric" : "1.6.0-rc.1",
+	"fs" : "latest",
+	"azure-storage" : "latest",
+	"async" : "latest"
+  }
+}
