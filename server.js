@@ -12,7 +12,7 @@ app.use(cors());
 app.use(bodyparser.json({limit: '10mb'}));
 
 app.get('/', function (req, res) {
-  res.send('Hello from miic webservice!\n');
+  res.send('Miicarpeta node server is running!\n');
 });
 
 app.post('/processData',function(req,res,next){
@@ -216,5 +216,5 @@ app.post('/processData',function(req,res,next){
 	  	});		
 });
 
-http.createServer(app).listen(8080);
-console.log("Server Started successfully at Port 8080");
+http.createServer(app).listen(8124);
+console.log("Server Started successfully at Port 8124");
