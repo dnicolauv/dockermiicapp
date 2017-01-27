@@ -6,5 +6,5 @@ ADD package.json package.json
 RUN npm install
 ADD . . 
 
-EXPOSE 8124:8124
+EXPOSE 8124
 CMD [ "npm", "start" ]
